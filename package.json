@@ -4,9 +4,10 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Andrew Mead",
+  "author": "Jacky Leung",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
@@ -22,5 +23,13 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "webpack": "^1.12.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbnin7a/ReactWeather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bbnin7a/ReactWeather/issues"
+  },
+  "homepage": "https://github.com/bbnin7a/ReactWeather#readme"
 }
